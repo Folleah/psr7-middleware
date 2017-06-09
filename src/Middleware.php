@@ -17,6 +17,6 @@ class Middleware implements MiddlewareInterface
      */
     public function process(ServerRequestInterface $request, DelegateInterface $delegate) 
     {
-        return 'test';
+        return 'hello world';
     }
 }
