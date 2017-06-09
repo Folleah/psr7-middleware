@@ -1,0 +1,35 @@
+{
+    "license": "MIT",
+    "name": "folleah/psr7-middleware",
+    "description": "PSR7 middleware implementation",
+    "keywords": ["psr7", "middleware"],
+    "license": "MIT",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Andrey Volkov",
+            "email": "folleah5@gmail.com",
+            "homepage": "https://folleah.github.io/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Psr\\Http\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
